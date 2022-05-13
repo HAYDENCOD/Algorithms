@@ -1,7 +1,7 @@
 import java.util.Arrays;
 
 public class binarySearch {
-    public static void binarySearchs(int[] arr, int key){
+    public static void binarySearch(int[] arr, int key){
         if(arr.length == 1){
             System.out.println(arr[0]);
         }
