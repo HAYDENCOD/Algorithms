@@ -20,23 +20,5 @@ public class binarySearch {
         }
 
     }
-    public static void linearSearch(int[] arr, int key){
-        for (int i = 0; i < arr.length; i++) {
-            if (arr[i] == key){
-                System.out.println("found");
-            }
-        }
-    }
-    public static void main(String[] args) {
-int[] a = {1,2,3,4,5,6,3,4,6,22,5,4,2,42,55,32};
-Arrays.sort(a);
-        for (int menu: a) {
-            System.out.print(menu + " ");
-        }
-        System.out.println(" ");
-binarySearchs(a, 5);
-        System.out.println(" ");
-        linearSearch(a,5);
 
-    }
 }
